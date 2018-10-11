@@ -1,0 +1,217 @@
+/* Header Links */
+a, a:focus, a:hover {
+  color: rgb(4, 4, 2);
+}
+
+/* Primary Content */
+
+html, body {
+  height: 100%;
+  background-color: #FFFEFC !important;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+h1 {
+  font-weight: bold;
+}
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-style: italic;
+  font-size: 16px;
+}
+.Iris1 {
+  color: #1AB2B7;
+}
+.Iris2 {
+  color: #592258;
+}
+.Cerner {
+  color: #029CD2;
+}
+
+img {
+  width: 250px;
+}
+p {
+  text-align: left;
+  color: rgb(4, 4, 2);
+}
+nav {
+  padding-right: 10%;
+}
+.masthead-brand {
+  padding-left: 10%;
+  font-size: 1.5rem;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/*
+ * Header
+ */
+.masthead {
+  margin-top: 0;
+  background-color: #FFFEFC;
+  padding: inherit;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  background-color: transparent;
+  border-bottom: .25rem solid;
+  border-bottom-color: #FFFEFC;
+}
+
+#about_link:hover,
+#about_link.active {
+  border-bottom-color: #ffb25b;
+  border-top-width: medium;
+}
+#experience_link:hover,
+#experience_link.active {
+  border-bottom-color: #449c73;
+  border-top-width: medium;
+}
+#contact_link:hover,
+#contact_link.active {
+  border-bottom-color: #f0cacf;
+  border-top-width: medium;
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+a:active {
+  color: rgb(4, 4, 2);
+  border-bottom-color: rgb(4, 4, 2);
+  border-top-width: medium;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+.container {
+  margin-top: 30%;
+  margin-bottom: 30%;
+}
+.container-bottom {
+  margin-bottom: 8.4% !important;
+}
+
+/* Animated Cover */
+.cover-heading {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255,255,255,.75);
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+}
+.anim-typewriter{
+  animation: typewriter 2s steps(22) 1s 1 normal both, blinkTextCursor 800ms steps(44) infinite normal;
+}
+/* The typing effect */
+@keyframes typewriter {
+  from { width: 0 }
+  to { width: 270px }
+}
+
+/* The typewriter cursor effect */
+@keyframes blinkTextCursor {
+  from, to { border-color: transparent }
+  50% { border-color: #850009 }
+}
+
+/* Contact Form */
+.w-form {
+  margin: 0 0 15px
+}
+.w-col {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px
+}
+.w-input {
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: white;
+  vertical-align: middle;
+  background-color: inherit;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+.w-button {
+  margin-top: 2rem;
+  background-color: rgb(4, 4, 2);
+  color: #FFFEFC;
+  border: 0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#myResume {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.myResume {
+  width: 100%;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  padding-right: 15px;
+  padding-top: 5px;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
