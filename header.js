@@ -3,6 +3,7 @@ $('.nav-link').on('click', function(){
     $(this).addClass('active');
 });
 
+// Adapted from: http://codetheory.in/change-active-state-links-sticky-navigation-scroll/
 var sections = $('.container'), nav = $('nav'), nav_height = nav.outerHeight();
 
 $(window).on('scroll', function () {
